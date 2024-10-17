@@ -5,10 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Client Web</title>
     <!-- Inserire qui il codice per caricare i css di w3.css --> 
-    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   <body>
     <!-- Inserire qui il codice per definire il form -->
-     
+    <div class="w3-card-4">
+      <div class="w3-container w3-green">
+        <h2>Crea un account</h2>
+      </div>
+      <form class="w3-container">
+        <label>Cognome</label>
+        <input class="w3-input w3-card-4" type="text" name="cognome">
+        <label>Età</label>
+        <input class="w3-input w3-card-4" type="number" name="eta">
+        <label>Data di nascita</label>
+        <input class="w3-input w3-card-4" type="date" name="dataNascita">
+        <label>Password</label>
+        <input class="w3-input w3-card-4" type="password" name="pwd">
+      </form>
+      <form class="w3-container w3-card-4">
+        <h2>Ordinazione</h2>
+        <p>
+        <input class="w3-check" type="checkbox" name="ordine1" value="latte" checked="checked">
+        <label>Latte</label></p>
+        <p>
+        <input class="w3-check" type="checkbox" name="ordine2" value="zucchero" >
+        <label>Zucchero</label></p>
+        <p>
+        <input class="w3-check" type="checkbox" name="ordine3" value="limone" disabled >
+        <label>Limone</label></p>
+
+        
+        <h2>Taglia</h2>
+        <p>
+        <input class="w3-radio" type="radio" name="taglia" value="S">
+        <label>Small</label></p>
+        <p>
+        <input class="w3-radio" type="radio" name="taglia" value="M" checked>
+        <label>Media</label></p>
+        <p>
+        <input class="w3-radio" type="radio" name="taglia" value="L">
+        <label>Large</label></p>
+        <p>
+
+        
+        <h1>Taglia</h1>
+
+        <select class="w3-select" name="taglia">
+          <option value="" disabled selected>Scegli la taglia</option>
+          <option value="S">Small</option>
+          <option value="M">Media</option>
+          <option value="L">Large</option>
+        </select>
+        <p>
+
+      </form>
+    </div>
   </body>
 </html>
